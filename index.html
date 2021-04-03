@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="praktikum_bootstrap.css" rel="stylesheet">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!--header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">Kabupaten Klaten</a>
+              <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNovAltMarkup" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ms-auto">
+                      <a class="nav-link active" aria-current="page" href="Home"></a>
+                      
+                  </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--section-->
+    <section>
+        <div class="hero-banner container-fluid p-5 text-white">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h1> Kabupaten Klaten</h1>
+                    <p>
+                        Daerah Kabupaten Klaten pada mulanya adalah bekas daerah swapraja Surakarta. Kasunanan Surakarta terdiri dari beberapa 
+                        daerah yang merupakan suatu kabupaten. Setiap kabupaten terdiri atas beberapa distrik. Susunan penguasa kabupaten
+                         terdiri dari Bupati, Kliwon, Mantri Jaksa, Mantri Kabupaten, Mantri Pembantu, Mantri Distrik, Penghulu, 
+                         Carik Kabupaten 1 dan 2, Lurah Langsik, dan Langsir. Susunan penguasa Distrik terdiri dari Pamong Distrik (1 orang), 
+                         Mantri Distrik (5), Carik Kepanawon 1 dan 2 (2 orang), Carik Kemanten (5 orang), serta Kajineman (15 orang).
+                        </p>
+                    <button type="button" class="btn btn-warning text-white">Tempat Wisata Klaten</button>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>        
+    </section>
+
+    <!--images-->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12 col-lg-4">
+          <div class="card mb-5">
+            <img 
+              src="https://asset.kompas.com/crops/7MEOflzXP8sezaYM9YDHGeFSMHA=/0x0:780x390/780x390/data/photo/2016/08/30/1338169selammm780x390.jpg" 
+              class="card-img-top" alt="..." height="300px" style="object-fit: cover;">
+            <div class="card-body">              
+              <p class="card-text">
+                Umbul Ponggok di Klaten, Wisata Bawah Air yang Instagramable
+                , tempat wisata yang Instagramable tidak hanya terbatas pada tempat wisata yang berada di darat saja,
+                 tetapi juga wisata bawah air.
+                .</p>              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <div class="card mb-5">
+            <img 
+              src="https://img.inews.co.id/media/822/files/inews_new/2020/08/02/keindahan_desa_terpencil_di_kaki_gunung_merapi.jpg" 
+              class="card-img-top" alt="..." height="300px" style="object-fit: cover;">
+            <div class="card-body">              
+              <p class="card-text">Keindahan Dusun Girpasang Klaten, Desa Terpencil di Kaki Gunung Merapi
+              </p>              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <div class="card mb-5">
+            <img 
+              src="https://raskita.com/wp-content/uploads/2019/09/Candi-Plaosan.jpg" 
+              class="card-img-top" alt="..." height="300px" style="object-fit: cover;">
+            <div class="card-body">              
+              <p class="card-text"> Rakai Pikatan dan Sri Kaluhuran telah membuktikan kekuatan cintanya. 
+                  Romantisme keduanya terukir jelas di sebuah candi kembar bernama Candi Plaosan.
+                   Kisah mereka mungkin tidak sefenomenal Roro Jonggrang, namun benar-benar menyentuh hati..</p>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--accordion and forms-->
+    <section>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-6 mb-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" 
+                    aria-controls="flush-collapseOne">
+                    Apakah Klaten adalah tempat yang nyaman dan asik?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" 
+                  aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate 
+                    the <code>.accordion-flush</code> class. This is the first item's accordion body.                 
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" 
+                    aria-controls="flush-collapseThree">
+                    Senyaman Apakah Kabupaten Klaten ?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" 
+                  aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate 
+                    the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms
+                    of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how 
+                    this would look in a real-world application. 
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Apakah seru main diwisata yang ada dikabupaten Klaten?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. 
+                    This is the second item's accordion body. Lets imagine this being filled with some actual content.                    
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!--form-->
+          <div class="col-md-6 mb-5">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+    
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+    
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>        
+      </div>      
+    </section>
+
+    <!--FOOTER-->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-12 col-lg-4">
+          <div class="card mb-5">
+            <img src="https://www.alodiatour.com/wp-content/uploads/2018/03/wisata-candi-prambanan.jpg"
+              class="card-img-top" alt="..." height="300px" style="object-fit: cover;">
+            <div class="card-body">
+              <p class="card-text">Candi Prambanan sendiri sudah dibangun sejak masa kerajaan Mataram. Saat itu, 
+                  Rakai Pikatanlah yang pertama kali memerintahkan untuk membangun Prambanan. Dibangun sejak tahun 850 masehi, 
+                  Candi Prambanan terus dipugar hingga masa kepemerintahan Raja Lokapala.
+                   Dibangunnya Prambanan sendiri, sebenarnya merupakan upaya untuk menandingi kemegahan Borobudur..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
